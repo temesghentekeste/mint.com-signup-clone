@@ -132,10 +132,15 @@ a {
   color: #777;
 }
 
+#signup-form {
+  justify-content: space-between;
+}
+
 #signup-form form {
   background: #fff;
-  height: 80vh;
+  height: 70vh;
   width: 25vw;
+  border: 1px solid #aaa;
 }
 
 #signup-form header {
@@ -165,7 +170,7 @@ a {
 }
 
 .form-input input {
-  padding: 0.4rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   width: 100%;
   border-radius: 3px;
   outline: none;
@@ -193,6 +198,31 @@ a {
   width: 100%;
   border: 0;
   padding: 1rem 1.2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn i {
+  margin-right: 0.4rem;
+  font-size: 0.8rem;
+}
+
+#terms {
+  margin: 3rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+#signup-form footer {
+  background: #eceef1;
+  height: 7vh;
+  width: 25vw;
+  border: 1px solid #aaa;
+  border-top: none;
+  font-size: small;
+  color: #888;
+  justify-content: center;
 }
