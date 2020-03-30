@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #0077c5;
+}
+
 /* Reseting the page */
 
 * {
@@ -31,7 +35,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0077c5;
+  color: var(--primary-color);
 }
 
 /* Header section */
