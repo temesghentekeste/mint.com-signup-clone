@@ -226,3 +226,22 @@ a {
   color: #888;
   justify-content: center;
 }
+
+#main-footer a {
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color: #333;
+  margin-bottom: 0.6rem;
+  display: inline-block;
+}
+
+#main-footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #333;
+}
