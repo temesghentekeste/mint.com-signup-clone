@@ -58,35 +58,44 @@ a {
 }
 
 .m-t-1 {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .m-t-2 {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .m-t-3 {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .m-t-4 {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .m-b-1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .m-b-2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .m-b-3 {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .m-b-4 {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* Utility Classes: Padding */
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
 }
 
 /* Header section */
@@ -112,7 +121,7 @@ a {
   justify-content: center;
 }
 
-#logo div a { 
+#logo div a {
   margin: 0 5px;
   height: 100%;
 }
@@ -122,3 +131,67 @@ a {
   margin: 0 4px;
 }
 
+#signup-form form {
+  background: #fff;
+  height: 80vh;
+  width: 25vw;
+}
+
+#signup-form header {
+  color: #444;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+#signup-form header p {
+  font-size: 1.1rem;
+}
+
+#signup-form header a {
+  font-size: 0.9rem;
+}
+
+.form-input {
+  margin-bottom: 2rem;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  color: #444;
+  font-weight: 300;
+}
+
+.form-input input {
+  padding: 0.4rem 1.2rem;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #999;
+}
+
+.form-input input[type='tel'] {
+  margin-bottom: 0.5rem;
+}
+
+#pass {
+  position: relative;
+}
+
+#pass i {
+  font-size: 1.2rem;
+  color: #888;
+  position: absolute;
+  top: 40px;
+  right: 18px;
+}
+
+.form-input button {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 1rem 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
