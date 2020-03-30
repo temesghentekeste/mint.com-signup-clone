@@ -151,7 +151,7 @@ a {
 
 #signup-form form {
   background: #fff;
-  height: 100vh;
+  height: 700px;
   width: 25vw;
   border: 1px solid #aaa;
 }
@@ -202,8 +202,8 @@ a {
   font-size: 1.2rem;
   color: #888;
   position: absolute;
-  top: 40px;
-  right: 18px;
+  top: 43px;
+  right: 20px;
 }
 
 .form-input button {
@@ -218,7 +218,7 @@ a {
 }
 
 #terms {
-  margin: 3rem 0;
+  margin: 3rem 0 1rem 0;
   text-align: center;
   font-size: 0.8rem;
   color: #333;
@@ -244,10 +244,6 @@ a {
   text-align: center;
   font-size: 0.8rem;
   color: #333;
-}
-
-#footer-privacy {
-  align-self: flex-end;
 }
 
 #footer-privacy {
