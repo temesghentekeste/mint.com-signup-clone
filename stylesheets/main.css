@@ -10,3 +10,37 @@ body {
   background: #eceef1;
 }
 
+/* Utility classes */
+
+.flex-h,
+.flex-v {
+  display: flex;
+}
+
+.flex-v {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+/* Header section */
+#main-header {
+  justify-content: flex-end;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+}
+
+#main-header p {
+  margin-bottom: 0.1rem;
+}
