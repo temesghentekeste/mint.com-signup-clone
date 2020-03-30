@@ -110,6 +110,11 @@ a {
   margin-bottom: 0.1rem;
 }
 
+.btn i {
+  margin-right: 0.4rem;
+  font-size: 0.8rem;
+}
+
 #sign-in-button i {
   margin-right: 0.3rem;
 }
@@ -119,6 +124,14 @@ a {
 #logo div {
   height: 60px;
   justify-content: center;
+}
+
+#main-footer a {
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  color: #333;
+  margin-bottom: 0.6rem;
+  display: inline-block;
 }
 
 #logo div a {
@@ -204,11 +217,6 @@ a {
   border-radius: 4px;
 }
 
-.btn i {
-  margin-right: 0.4rem;
-  font-size: 0.8rem;
-}
-
 #terms {
   margin: 3rem 0;
   text-align: center;
@@ -225,14 +233,6 @@ a {
   font-size: small;
   color: #888;
   justify-content: center;
-}
-
-#main-footer a {
-  margin-right: 1rem;
-  font-size: 0.8rem;
-  color: #333;
-  margin-bottom: 0.6rem;
-  display: inline-block;
 }
 
 #main-footer a:hover {
