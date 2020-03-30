@@ -151,7 +151,7 @@ a {
 
 #signup-form form {
   background: #fff;
-  height: 70vh;
+  height: 100vh;
   width: 25vw;
   border: 1px solid #aaa;
 }
@@ -244,4 +244,22 @@ a {
   text-align: center;
   font-size: 0.8rem;
   color: #333;
+}
+
+#footer-privacy {
+  align-self: flex-end;
+}
+
+#footer-privacy {
+  align-self: flex-end;
+  margin-right: 5rem;
+}
+
+#footer-privacy button {
+  background: #444;
+  padding: 1rem 1.2rem;
+  font-size: 1.2rem;
+  position: fixed;
+  bottom: 0;
+  right: 90px;
 }
