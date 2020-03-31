@@ -128,7 +128,6 @@ a {
 /* Logo section */
 
 #logo div {
-  height: 40px;
   justify-content: center;
   margin-top: 0.8rem;
 }
@@ -163,7 +162,7 @@ a {
 
 #signup-form form {
   background: #fff;
-  height: 600px;
+  height: 580px;
   width: 23vw;
   border: 1px solid #aaa;
 }
@@ -184,7 +183,7 @@ a {
 }
 
 .form-input {
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
 }
 
 .form-input label {
@@ -231,7 +230,7 @@ a {
 }
 
 #terms {
-  margin: 2.5rem 0 0.6rem 0;
+  margin: 2.2rem 0 0.6rem 0;
   text-align: center;
   font-size: 0.8rem;
   color: #333;
@@ -239,7 +238,7 @@ a {
 
 #signup-form footer {
   background: #eceef1;
-  height: 7vh;
+  height: 40px;
   width: 23vw;
   border: 1px solid #aaa;
   border-top: none;
