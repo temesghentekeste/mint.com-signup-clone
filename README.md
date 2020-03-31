@@ -14,7 +14,7 @@ In this project, we made use of DRY (Do Not Repeat Yourself) principles to make 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/temesghentekeste/mint.com-signup-clone/dab32ee1d8b173129184074d121f155a57a7fcff/index.html)
+[Live Demo Link](https://rawcdn.githack.com/temesghentekeste/mint.com-signup-clone/5a3efc3dcdda4dee436c31871e4474aff5e7b768/index.html)
 
 ## Getting Started
 
