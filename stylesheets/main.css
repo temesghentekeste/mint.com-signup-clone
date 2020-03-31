@@ -158,12 +158,13 @@ a {
 
 #signup-form header {
   color: #444;
-  font-weight: 400;
-  font-size: 1.2rem;
+  font-weight: 300;
+  font-size: 1.6rem;
 }
 
 #signup-form header p {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  color: #777;
 }
 
 #signup-form header a {
@@ -177,7 +178,7 @@ a {
 .form-input label {
   display: block;
   margin-bottom: 0.8rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #444;
   font-weight: 300;
 }
@@ -192,6 +193,10 @@ a {
 
 .form-input input[type='tel'] {
   margin-bottom: 0.5rem;
+}
+
+.form-input span {
+  font-size: 0.8rem;
 }
 
 #pass {
