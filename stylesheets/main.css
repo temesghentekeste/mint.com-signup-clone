@@ -3,8 +3,6 @@
   --white-text: #fff;
 }
 
-/* Reseting the page */
-
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +13,6 @@ body {
   background: #eceef1;
   height: 100vh;
 }
-
-/* Utility classes */
 
 .flex-h,
 .flex-v {
@@ -47,8 +43,6 @@ a {
   color: var(--white-text);
   padding: 0.5rem 1.4rem;
 }
-
-/* Utility Classes: Margins */
 
 .m-r-1 {
   margin-right: 1rem;
@@ -90,7 +84,6 @@ a {
   margin-bottom: 4rem;
 }
 
-/* Utility Classes: Padding */
 .p-1 {
   padding: 1rem;
 }
@@ -98,8 +91,6 @@ a {
 .p-2 {
   padding: 2rem;
 }
-
-/* Header section */
 
 #main-header {
   justify-content: flex-end;
@@ -124,8 +115,6 @@ a {
 #sign-in-button i {
   margin-right: 0.3rem;
 }
-
-/* Logo section */
 
 #logo div {
   justify-content: center;
