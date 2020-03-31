@@ -179,10 +179,6 @@ a {
   font-size: 1.2rem;
 }
 
-#signup-form {
-  justify-content: space-between;
-}
-
 form {
   background: #fff;
   height: 580px;
@@ -246,7 +242,7 @@ header a {
   border-radius: 4px;
 }
 
-#signup-form footer {
+main footer {
   background: #eceef1;
   height: 40px;
   width: 23vw;
