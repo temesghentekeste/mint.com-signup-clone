@@ -250,17 +250,3 @@ a {
   font-size: 0.8rem;
   color: #333;
 }
-
-#footer-privacy {
-  align-self: flex-end;
-  margin-right: 5rem;
-}
-
-#footer-privacy div {
-  background: #777;
-  padding: 0.6rem 1.2rem;
-  font-size: 0.9rem;
-  position: fixed;
-  bottom: 0;
-  right: 90px;
-}
