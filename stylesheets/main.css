@@ -147,10 +147,15 @@ a {
   height: 100%;
 }
 
+.form-input span {
+  font-size: 0.8rem;
+}
+
 #logo span {
   top: 5px;
   margin: 0 4px;
   color: #777;
+  font-size: 1.2rem;
 }
 
 #signup-form {
@@ -201,10 +206,6 @@ a {
 
 .form-input input[type='tel'] {
   margin-bottom: 0.5rem;
-}
-
-.form-input span {
-  font-size: 0.8rem;
 }
 
 #pass {
