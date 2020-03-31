@@ -11,7 +11,7 @@
     <header id="main-header" class="flex-h">
       <div class="nav-container flex-h align-center">
         <div class="m-r-1">
-          <p>Already have an Intuit account?</p>
+          <p class="m-b-0-1">Already have an Intuit account?</p>
           <a id="forgot-id-pass" href="#">I forgot my User ID or Password</a>
         </div>
         <div class="m-r-1">
@@ -47,7 +47,7 @@
       </footer>
     </div>
 
-    <main id="signup-form" class="flex-v align-center m-t-1">
+    <main id="signup-form" class="flex-v space-between align-center m-t-1">
       <form action="#" class="p-2">
         <header class="flex-v align-center m-b-1">
           <span class="m-b-1">Create an Intuit account</span>
@@ -66,10 +66,12 @@
           <span>Standard call, messaging or data rates may apply.</span>
         </div>
 
-        <div class="form-input" id="pass">
+        <div class="form-input relative">
           <label for="password">Password</label
           ><input type="password" name="password" id="password" />
-          <i class="fas fa-unlock-alt"></i>
+          <span
+            ><i class="fas fa-unlock-alt absolute light-gray-text"></i
+          ></span>
         </div>
 
         <div class="form-input">

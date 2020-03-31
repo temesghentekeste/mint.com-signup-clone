@@ -1,7 +1,8 @@
 :root {
   --primary-color: #0077c5;
-  --white-text: #fff;
-  --dark-gray-text: #333;
+  --white-color: #fff;
+  --dark-gray-color: #333;
+  --light-gray-color: #888;
 }
 
 * {
@@ -28,6 +29,10 @@ body {
   align-items: center;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .text-center {
   text-align: center;
 }
@@ -41,7 +46,7 @@ a {
   background: var(--primary-color);
   border-radius: 0.3rem;
   border: 1px solid #333;
-  color: var(--white-text);
+  color: var(--white-color);
   padding: 0.5rem 1.4rem;
 }
 
@@ -71,6 +76,10 @@ a {
 
 .m-b-0-6 {
   margin-bottom: 0.6rem;
+}
+
+.m-b-0-1 {
+  margin-bottom: 0.1rem;
 }
 
 .m-b-1 {
@@ -106,7 +115,19 @@ a {
 }
 
 .dark-gray-text {
-  color: var(--dark-gray-text);
+  color: var(--dark-gray-color);
+}
+
+.light-gray-text {
+  color: var(--light-gray-color);
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
 
 #main-header {
@@ -114,10 +135,6 @@ a {
   padding: 0.6rem 1rem;
   font-size: 0.8rem;
   color: #777;
-}
-
-#main-header p {
-  margin-bottom: 0.1rem;
 }
 
 .btn i {
@@ -166,25 +183,25 @@ a {
   justify-content: space-between;
 }
 
-#signup-form form {
+form {
   background: #fff;
   height: 580px;
   width: 23vw;
   border: 1px solid #aaa;
 }
 
-#signup-form header {
+header {
   color: #444;
   font-weight: 300;
   font-size: 1.6rem;
 }
 
-#signup-form header p {
+header p {
   font-size: 0.9rem;
   color: #777;
 }
 
-#signup-form header a {
+header a {
   font-size: 0.9rem;
 }
 
@@ -212,14 +229,8 @@ a {
   margin-bottom: 0.5rem;
 }
 
-#pass {
-  position: relative;
-}
-
-#pass i {
+.form-input span i {
   font-size: 1.2rem;
-  color: #888;
-  position: absolute;
   top: 34px;
   right: 17px;
 }
