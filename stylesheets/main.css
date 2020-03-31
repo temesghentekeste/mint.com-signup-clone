@@ -69,6 +69,10 @@ a {
   margin-top: 4rem;
 }
 
+.m-b-0-6 {
+  margin-bottom: 0.6rem;
+}
+
 .m-b-1 {
   margin-bottom: 1rem;
 }
@@ -229,13 +233,6 @@ a {
   font-weight: 400;
   cursor: pointer;
   border-radius: 4px;
-}
-
-#terms {
-  margin: 2.2rem 0 0.6rem 0;
-  text-align: center;
-  font-size: 0.8rem;
-  color: #333;
 }
 
 #signup-form footer {
