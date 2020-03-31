@@ -1,9 +1,10 @@
 # Mint.com Signup Clone
-> This project consists of building an HTML document that matches the appearance of mint.com’s signup page
+> This project consists of building an HTML document that matches the appearance of mint.com’s signup page. It was developed as a requirement for Microverse HTML and CSS course. 
 
 ![screenshot](./images/app_screenshot.png)
 
 Additional description about the project and its features.
+In this project, we made use of DRY (Do Not Repeat Yourself) principles to make a copy of Mint.com's sign up page. We implemented the use of semantic html, utility classes and variables in our CSS to ensure our code was clean and well structured.
 
 ## Built With
 
