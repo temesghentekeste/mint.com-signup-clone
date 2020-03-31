@@ -13,6 +13,7 @@
 
 body {
   background: #eceef1;
+  height: 100vh;
 }
 
 /* Utility classes */
@@ -102,8 +103,9 @@ a {
 
 #main-header {
   justify-content: flex-end;
-  padding: 0.8rem 2rem;
-  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  color: #777;
 }
 
 #main-header p {
@@ -115,6 +117,11 @@ a {
   font-size: 0.8rem;
 }
 
+#sign-in-button {
+  height: 35px;
+  width: 105px;
+}
+
 #sign-in-button i {
   margin-right: 0.3rem;
 }
@@ -122,8 +129,9 @@ a {
 /* Logo section */
 
 #logo div {
-  height: 60px;
+  height: 40px;
   justify-content: center;
+  margin-top: 0.8rem;
 }
 
 #main-footer a {
@@ -151,8 +159,8 @@ a {
 
 #signup-form form {
   background: #fff;
-  height: 700px;
-  width: 25vw;
+  height: 600px;
+  width: 23vw;
   border: 1px solid #aaa;
 }
 
@@ -163,7 +171,7 @@ a {
 }
 
 #signup-form header p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #777;
 }
 
@@ -177,7 +185,7 @@ a {
 
 .form-input label {
   display: block;
-  margin-bottom: 0.8rem;
+  margin: 0.6rem 0;
   font-size: 1rem;
   color: #444;
   font-weight: 300;
@@ -207,8 +215,8 @@ a {
   font-size: 1.2rem;
   color: #888;
   position: absolute;
-  top: 43px;
-  right: 20px;
+  top: 34px;
+  right: 17px;
 }
 
 .form-input button {
@@ -223,7 +231,7 @@ a {
 }
 
 #terms {
-  margin: 3rem 0 1rem 0;
+  margin: 2.5rem 0 0.6rem 0;
   text-align: center;
   font-size: 0.8rem;
   color: #333;
@@ -232,7 +240,7 @@ a {
 #signup-form footer {
   background: #eceef1;
   height: 7vh;
-  width: 25vw;
+  width: 23vw;
   border: 1px solid #aaa;
   border-top: none;
   font-size: small;
