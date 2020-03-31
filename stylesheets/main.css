@@ -146,6 +146,12 @@ a {
   height: 35px;
 }
 
+.form-input span i {
+  font-size: 1.2rem;
+  top: 34px;
+  right: 17px;
+}
+
 #sign-in-button i {
   margin-right: 0.3rem;
 }
@@ -153,6 +159,10 @@ a {
 #logo div {
   justify-content: center;
   margin-top: 0.8rem;
+}
+
+header a {
+  font-size: 0.9rem;
 }
 
 #main-footer a {
@@ -197,10 +207,6 @@ header p {
   color: #777;
 }
 
-header a {
-  font-size: 0.9rem;
-}
-
 .form-input {
   margin-bottom: 1.8rem;
 }
@@ -223,12 +229,6 @@ header a {
 
 .form-input input[type='tel'] {
   margin-bottom: 0.5rem;
-}
-
-.form-input span i {
-  font-size: 1.2rem;
-  top: 34px;
-  right: 17px;
 }
 
 .form-input button {
