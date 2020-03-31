@@ -251,10 +251,10 @@ a {
   margin-right: 5rem;
 }
 
-#footer-privacy button {
-  background: #444;
-  padding: 1rem 1.2rem;
-  font-size: 1.2rem;
+#footer-privacy div {
+  background: #777;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
   position: fixed;
   bottom: 0;
   right: 90px;
