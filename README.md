@@ -1,5 +1,6 @@
 # Mint.com Signup Clone
-> This project consists of building an HTML document that matches the appearance of mint.com’s signup page. It was developed as a requirement for Microverse HTML and CSS course. 
+
+> This project consists of building an HTML document that matches the appearance of mint.com’s signup page. It was developed as a requirement for Microverse HTML and CSS course.
 
 ![screenshot](./images/app_screenshot.png)
 
@@ -13,23 +14,22 @@ In this project, we made use of DRY (Do Not Repeat Yourself) principles to make 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/temesghentekeste/mint.com-signup-clone/dc30cc664c11709bbfbcaedacd6a112ac30d7d14/index.html)
-
+[Live Demo Link](https://rawcdn.githack.com/temesghentekeste/mint.com-signup-clone/dab32ee1d8b173129184074d121f155a57a7fcff/index.html)
 
 ## Getting Started
 
 **Click on the link above in order to see the Live Demo of the front end project.**
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
- - Web Browser
- - Text Editor
+
+- Web Browser
+- Text Editor
 
 ### Setup
- - Download repository files
 
+- Download repository files
 
 ## Authors
 
