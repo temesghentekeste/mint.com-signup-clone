@@ -1,6 +1,7 @@
 :root {
   --primary-color: #0077c5;
   --white-text: #fff;
+  --dark-gray-text: #333;
 }
 
 * {
@@ -92,8 +93,16 @@ a {
   padding: 2rem;
 }
 
-.fs-0-8 {
+.fs-0-7 {
   font-size: 0.7rem;
+}
+
+.fs-0-8 {
+  font-size: 0.8rem;
+}
+
+.dark-gray-text {
+  color: var(--dark-gray-text);
 }
 
 #main-header {
@@ -243,10 +252,4 @@ a {
 #main-footer a:hover {
   text-decoration: underline;
   cursor: pointer;
-}
-
-#copyright {
-  text-align: center;
-  font-size: 0.8rem;
-  color: #333;
 }
