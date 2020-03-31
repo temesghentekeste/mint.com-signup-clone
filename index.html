@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" href="stylesheets/reset.css" />
+    <link rel="stylesheet" href="stylesheets/main.css" />
+  </head>
+  <body>
+    <header id="main-header" class="flex-h">
+      <div class="nav-container flex-h align-center">
+        <div class="m-r-1">
+          <p class="m-b-0-1">Already have an Intuit account?</p>
+          <a id="forgot-id-pass" href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="m-r-1">
+          <button id="sign-in-button" class="btn">
+            <i class="fas fa-lock"></i>
+            Sign In
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div id="logo" class="flex-v align-center">
+      <header>
+        <a href=""><img src="./images/intuit.png" alt="intuit"/></a>
+      </header>
+
+      <footer>
+        <div class="flex-h">
+          <a class="flex-h align-center m-r-2" href=""
+            ><img src="./images/mint.png" alt="mint" /><span>mint</span></a
+          >
+          <a class="flex-h align-center m-r-2" href=""
+            ><img src="./images/quickbooks.png" alt="quickbooks" /><span
+              >quickbooks</span
+            ></a
+          >
+          <a class="flex-h align-center m-r-2" href=""
+            ><img src="./images/turbotax.png" alt="turbotax" /><span
+              >turbotax</span
+            ></a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <main class="flex-v space-between align-center m-t-1">
+      <form action="#" class="p-2">
+        <header class="flex-v align-center m-b-1">
+          <span class="m-b-1">Create an Intuit account</span>
+          <p>One account for everything Intuit, including Mint.</p>
+          <a href="">Learn more</a>
+        </header>
+
+        <div class="form-input">
+          <label for="email">Email address</label
+          ><input type="email" name="email" id="email" />
+        </div>
+
+        <div class="form-input">
+          <label for="tel">Phone (recommended)</label
+          ><input type="tel" name="tel" id="tel" />
+          <span>Standard call, messaging or data rates may apply.</span>
+        </div>
+
+        <div class="form-input relative">
+          <label for="password">Password</label
+          ><input type="password" name="password" id="password" />
+          <span
+            ><i class="fas fa-unlock-alt absolute light-gray-text"></i
+          ></span>
+        </div>
+
+        <div class="form-input">
+          <button class="btn">
+            <i class="fas fa-lock"></i> Create Account
+          </button>
+        </div>
+
+        <div class="m-t-2 m-b-0-6 text-center fs-0-8 dark-gray-text">
+          <em>
+            By clicking Create account, you agree to our<br />
+            <a href="#">Terms</a> and have read and acknowledge our
+            <a href="#">Privacy <br />Statement</a>.
+          </em>
+        </div>
+      </form>
+      <footer class="flex-h align-center">
+        <p class="text-center fs-0-7">
+          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+          <a href="#">Terms of Use</a>.
+        </p>
+      </footer>
+    </main>
+
+    <footer id="main-footer" class="flex-v align-center m-t-1">
+      <div>
+        <a href="">Legal</a>
+        <a href="">Privacy</a>
+        <a href="">Security</a>
+      </div>
+
+      <div class="m-b-1 fs-0-8 text-center dark-gray-text">
+        <p>
+          © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+          TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        </p>
+
+        <p>
+          Terms and conditions, features, support, pricing, and service options
+          subject to change without notice.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/80a3ac2a2d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
