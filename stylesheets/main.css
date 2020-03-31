@@ -92,6 +92,10 @@ a {
   padding: 2rem;
 }
 
+.fs-0-8 {
+  font-size: 0.7rem;
+}
+
 #main-header {
   justify-content: flex-end;
   padding: 0.6rem 1rem;
